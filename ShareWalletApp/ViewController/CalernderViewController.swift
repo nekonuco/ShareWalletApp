@@ -1,21 +1,20 @@
 //
-//  ViewController.swift
+//  CalernderViewController.swift
 //  ShareWalletApp
 //
-//  Created by 野辺翔太 on 2022/06/10.
+//  Created by 野辺翔太 on 2022/06/17.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalernderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-// test
-        
+
         // Do any additional setup after loading the view.
     }
+    
 
 
 }
-
