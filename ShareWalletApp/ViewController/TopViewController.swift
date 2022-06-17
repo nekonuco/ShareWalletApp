@@ -17,12 +17,6 @@ class TopViewController: UIViewController, UITabBarDelegate {
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        
-        // navigationBarの非表示
-        navigationController?.setNavigationBarHidden(true, animated: false)
-    }
-    
     
     
     
