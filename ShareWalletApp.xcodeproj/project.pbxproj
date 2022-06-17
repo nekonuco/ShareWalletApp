@@ -13,6 +13,17 @@
 		D5152A54285B91DB00A9064D /* PayRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5152A53285B91DB00A9064D /* PayRegisterViewController.swift */; };
 		D5152A56285B91EF00A9064D /* MasterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5152A55285B91EF00A9064D /* MasterListViewController.swift */; };
 		D5152A58285B978600A9064D /* CalernderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5152A57285B978600A9064D /* CalernderViewController.swift */; };
+		D52F1913285CAEF300E59145 /* MemberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1912285CAEF300E59145 /* MemberListViewController.swift */; };
+		D52F1915285CAF6B00E59145 /* PayCategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1914285CAF6B00E59145 /* PayCategoryListViewController.swift */; };
+		D52F1918285CD2B400E59145 /* CellViewBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1917285CD2B400E59145 /* CellViewBinder.swift */; };
+		D52F191A285CD74B00E59145 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1919285CD74B00E59145 /* GroupListViewController.swift */; };
+		D52F191C285CD7FB00E59145 /* RateRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F191B285CD7FB00E59145 /* RateRegisterViewController.swift */; };
+		D52F191E285CD9C500E59145 /* FixPaymentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F191D285CD9C500E59145 /* FixPaymentListViewController.swift */; };
+		D52F1920285CDA0300E59145 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F191F285CDA0300E59145 /* PasswordChangeViewController.swift */; };
+		D52F1922285CDFAC00E59145 /* GroupSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1921285CDFAC00E59145 /* GroupSelectorViewController.swift */; };
+		D52F1924285CE2C500E59145 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1923285CE2C500E59145 /* PasswordResetViewController.swift */; };
+		D52F1926285CE3D300E59145 /* GroupRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1925285CE3D300E59145 /* GroupRegisterViewController.swift */; };
+		D52F1928285CE4D800E59145 /* UserNameRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F1927285CE4D800E59145 /* UserNameRegisterViewController.swift */; };
 		D5DA0D5A2852690600D7B5C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0D592852690600D7B5C6 /* AppDelegate.swift */; };
 		D5DA0D5C2852690600D7B5C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA0D5B2852690600D7B5C6 /* SceneDelegate.swift */; };
 		D5DA0D612852690600D7B5C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA0D5F2852690600D7B5C6 /* Main.storyboard */; };
@@ -27,6 +38,17 @@
 		D5152A53285B91DB00A9064D /* PayRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayRegisterViewController.swift; sourceTree = "<group>"; };
 		D5152A55285B91EF00A9064D /* MasterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterListViewController.swift; sourceTree = "<group>"; };
 		D5152A57285B978600A9064D /* CalernderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalernderViewController.swift; sourceTree = "<group>"; };
+		D52F1912285CAEF300E59145 /* MemberListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListViewController.swift; sourceTree = "<group>"; };
+		D52F1914285CAF6B00E59145 /* PayCategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCategoryListViewController.swift; sourceTree = "<group>"; };
+		D52F1917285CD2B400E59145 /* CellViewBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewBinder.swift; sourceTree = "<group>"; };
+		D52F1919285CD74B00E59145 /* GroupListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
+		D52F191B285CD7FB00E59145 /* RateRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateRegisterViewController.swift; sourceTree = "<group>"; };
+		D52F191D285CD9C500E59145 /* FixPaymentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixPaymentListViewController.swift; sourceTree = "<group>"; };
+		D52F191F285CDA0300E59145 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		D52F1921285CDFAC00E59145 /* GroupSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSelectorViewController.swift; sourceTree = "<group>"; };
+		D52F1923285CE2C500E59145 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		D52F1925285CE3D300E59145 /* GroupRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRegisterViewController.swift; sourceTree = "<group>"; };
+		D52F1927285CE4D800E59145 /* UserNameRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameRegisterViewController.swift; sourceTree = "<group>"; };
 		D5DA0D562852690600D7B5C6 /* ShareWalletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareWalletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DA0D592852690600D7B5C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5DA0D5B2852690600D7B5C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,8 +78,26 @@
 				D5152A53285B91DB00A9064D /* PayRegisterViewController.swift */,
 				D5152A55285B91EF00A9064D /* MasterListViewController.swift */,
 				D5152A57285B978600A9064D /* CalernderViewController.swift */,
+				D52F1912285CAEF300E59145 /* MemberListViewController.swift */,
+				D52F1914285CAF6B00E59145 /* PayCategoryListViewController.swift */,
+				D52F1919285CD74B00E59145 /* GroupListViewController.swift */,
+				D52F191B285CD7FB00E59145 /* RateRegisterViewController.swift */,
+				D52F191D285CD9C500E59145 /* FixPaymentListViewController.swift */,
+				D52F191F285CDA0300E59145 /* PasswordChangeViewController.swift */,
+				D52F1921285CDFAC00E59145 /* GroupSelectorViewController.swift */,
+				D52F1923285CE2C500E59145 /* PasswordResetViewController.swift */,
+				D52F1925285CE3D300E59145 /* GroupRegisterViewController.swift */,
+				D52F1927285CE4D800E59145 /* UserNameRegisterViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D52F1916285CD27D00E59145 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D52F1917285CD2B400E59145 /* CellViewBinder.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		D5DA0D4D2852690600D7B5C6 = {
@@ -79,6 +119,7 @@
 		D5DA0D582852690600D7B5C6 /* ShareWalletApp */ = {
 			isa = PBXGroup;
 			children = (
+				D52F1916285CD27D00E59145 /* Protocol */,
 				D510D415285B82F600B2BAD4 /* ViewController */,
 				D5DA0D592852690600D7B5C6 /* AppDelegate.swift */,
 				D5DA0D5B2852690600D7B5C6 /* SceneDelegate.swift */,
@@ -161,14 +202,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52F191A285CD74B00E59145 /* GroupListViewController.swift in Sources */,
+				D52F191E285CD9C500E59145 /* FixPaymentListViewController.swift in Sources */,
+				D52F1918285CD2B400E59145 /* CellViewBinder.swift in Sources */,
+				D52F1928285CE4D800E59145 /* UserNameRegisterViewController.swift in Sources */,
+				D52F191C285CD7FB00E59145 /* RateRegisterViewController.swift in Sources */,
 				D5152A52285B91BB00A9064D /* TotalAmountInfoViewController.swift in Sources */,
+				D52F1926285CE3D300E59145 /* GroupRegisterViewController.swift in Sources */,
 				D5152A50285B88CD00A9064D /* TopViewController.swift in Sources */,
 				D5152A56285B91EF00A9064D /* MasterListViewController.swift in Sources */,
+				D52F1915285CAF6B00E59145 /* PayCategoryListViewController.swift in Sources */,
 				D5152A54285B91DB00A9064D /* PayRegisterViewController.swift in Sources */,
 				D510D417285B83EB00B2BAD4 /* LoginViewController.swift in Sources */,
 				D5DA0D5A2852690600D7B5C6 /* AppDelegate.swift in Sources */,
+				D52F1922285CDFAC00E59145 /* GroupSelectorViewController.swift in Sources */,
 				D5DA0D5C2852690600D7B5C6 /* SceneDelegate.swift in Sources */,
+				D52F1920285CDA0300E59145 /* PasswordChangeViewController.swift in Sources */,
 				D5152A58285B978600A9064D /* CalernderViewController.swift in Sources */,
+				D52F1924285CE2C500E59145 /* PasswordResetViewController.swift in Sources */,
+				D52F1913285CAEF300E59145 /* MemberListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,6 +23,10 @@ class LoginViewController: UIViewController {
         self.performSegue(withIdentifier: "secceedLogin", sender: nil)
     }
     
+    @IBAction func passwordReset(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "passwordResetSegue", sender: nil)
+    }
     
 
 
