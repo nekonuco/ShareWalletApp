@@ -484,14 +484,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="総額確認画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ8-QS-fMh">
-                                <rect key="frame" x="186" y="438" width="104" height="21"/>
+                                <rect key="frame" x="156" y="88" width="104" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJU-PF-iNf">
-                                <rect key="frame" x="160" y="592" width="96" height="31"/>
+                                <rect key="frame" x="280" y="127" width="96" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="カレンダー"/>
@@ -499,6 +499,29 @@
                                     <action selector="calenderBtn:" destination="h5I-ZB-mwG" eventType="touchUpInside" id="iUl-tH-GE2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qh0-oe-AVG">
+                                <rect key="frame" x="95" y="549" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="button1:" destination="h5I-ZB-mwG" eventType="touchUpInside" id="oqS-RG-mR3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Org-l0-Hev">
+                                <rect key="frame" x="268" y="549" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="button2:" destination="h5I-ZB-mwG" eventType="touchUpInside" id="ozg-Ci-jzi"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sg-K8-BZJ" customClass="CircleChartView" customModule="ShareWalletApp" customModuleProvider="target">
+                                <rect key="frame" x="73" y="166" width="270" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TU1-Fk-ETt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -506,12 +529,13 @@
                     <navigationItem key="navigationItem" id="Ra9-tU-f1F"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="circleChartView" destination="5sg-K8-BZJ" id="g2H-qr-YlQ"/>
                         <segue destination="1qv-MT-97n" kind="show" identifier="calenderSegue" id="wZS-OZ-NGP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TxM-Hd-keJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3645" y="-141"/>
+            <point key="canvasLocation" x="3644.9275362318845" y="-141.29464285714286"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DKt-7z-9by">
