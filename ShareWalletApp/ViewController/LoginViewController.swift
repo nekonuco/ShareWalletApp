@@ -20,6 +20,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginBtn(_ sender: Any) {
         
+        // テスト
+        
         self.performSegue(withIdentifier: "secceedLogin", sender: nil)
     }
     
