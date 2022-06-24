@@ -7,25 +7,16 @@
 
 import UIKit
 
-class TotalAmountInfoViewController: UIViewController {
+class TotalAmountInfoViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
+@IBOutlet weak var circleChartView: CircleChartView!
     
-    @IBOutlet weak var circleChartView: CircleChartView!
+    let paymentCategories = ["食品", "雑費", "日用品", "家賃", "光熱費", "通信費"]
     
+    // 色と数字はDBから持ってくるようにする
+    // 色とかはランダムで指定されるようにする
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    }
-    
-    @IBAction func button1(_ sender: Any) {
-        circleChartView.configure(
-            partInfos: [
-                .init(value: 100, color: .red),
-                .init(value: 50, color: .blue),
-                .init(value: 30, color: .yellow),
-            ])
-    }
-    
-    @IBAction func button2(_ sender: Any) {
+        
         circleChartView.configure(
             partInfos: [
                 .init(value: 100, color: .red),
@@ -34,12 +25,26 @@ class TotalAmountInfoViewController: UIViewController {
                 .init(value: 25, color: .green),
                 .init(value: 5, color: .cyan),
             ])
+
     }
     
     @IBAction func calenderBtn(_ sender: Any) {
-        
         self.performSegue(withIdentifier: "calenderSegue", sender: nil)
+    }
+    
+    // セクションの中のセルの数を返す
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return paymentCategories.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
+        let cell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "circleDetail", for: indexPath)
+        
+        let label = cell.contentView.viewWithTag(1) as! UILabel
+        label.text = paymentCategories[indexPath.row]
+        
+        return cell
     }
     
 }
@@ -76,7 +81,7 @@ class CircleChartView: UIView {
         let radius: CGFloat = 100
         let margin: CGFloat = 35
         let center = CGPoint(
-            x: radius + margin,
+            x: radius + margin + 70,
             y: radius + margin
         )
         
