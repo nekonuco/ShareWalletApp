@@ -12,7 +12,7 @@ class MasterListViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var masterTableView: UITableView!
     
     // cell配列を設定
-    let masterServices = ["メンバー", "グループ", "割合登録", "支払カテゴリー登録", "固定支出", "パスワード変更", "未払いメンバー"]
+    let masterServices = ["メンバー", "グループ", "割合登録", "支払カテゴリー登録", "固定支出", "パスワード変更", "未払いメンバー", "test"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
