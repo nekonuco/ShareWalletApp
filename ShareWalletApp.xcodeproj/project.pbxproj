@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3236A281287A763600C29BC9 /* MemberAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236A280287A763600C29BC9 /* MemberAddEditViewController.swift */; };
 		D510D417285B83EB00B2BAD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D510D416285B83EB00B2BAD4 /* LoginViewController.swift */; };
 		D5152A50285B88CD00A9064D /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5152A4F285B88CD00A9064D /* TopViewController.swift */; };
 		D5152A52285B91BB00A9064D /* TotalAmountInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5152A51285B91BB00A9064D /* TotalAmountInfoViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3236A280287A763600C29BC9 /* MemberAddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberAddEditViewController.swift; sourceTree = "<group>"; };
 		D510D416285B83EB00B2BAD4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D5152A4F285B88CD00A9064D /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		D5152A51285B91BB00A9064D /* TotalAmountInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalAmountInfoViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				D52F1923285CE2C500E59145 /* PasswordResetViewController.swift */,
 				D52F1925285CE3D300E59145 /* GroupRegisterViewController.swift */,
 				D52F1927285CE4D800E59145 /* UserNameRegisterViewController.swift */,
+				3236A280287A763600C29BC9 /* MemberAddEditViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				D52F191A285CD74B00E59145 /* GroupListViewController.swift in Sources */,
 				D52F191E285CD9C500E59145 /* FixPaymentListViewController.swift in Sources */,
+				3236A281287A763600C29BC9 /* MemberAddEditViewController.swift in Sources */,
 				D52F1918285CD2B400E59145 /* CellViewBinder.swift in Sources */,
 				D52F1928285CE4D800E59145 /* UserNameRegisterViewController.swift in Sources */,
 				D52F191C285CD7FB00E59145 /* RateRegisterViewController.swift in Sources */,
